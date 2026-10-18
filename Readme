@@ -1,4 +1,13 @@
 ML basic project to understand the flow-
 
 Here we are learning to craete a predictive model on how our system will predict the number and if that student will get placement or not by giving the data of some students.
+#STEPS we are going to perform 
+
+#0--preprocessing+EDA(exploratory data analysis)+feature selection(we select only those rows and columns which are very important to make our prediction more accurate.)
+#1-extract input and output cols
+#2-scale the value-- usually data is spread across various points so by scaling that we move our data within some particular scale generally from -1 to 1
+#3-train test split-- here we split our data in training and test data-- we train our model on some data and the rest data we hide so that we can use that in testing teh machine.
+#4-train the model
+#5-Evaluate the model-- we train our model on various algorithms and then we check which algorithm works best then we choose that one.
+#6-deploy the model on server.
 
